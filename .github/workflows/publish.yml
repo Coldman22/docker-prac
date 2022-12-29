@@ -13,6 +13,6 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build the hello-docker Docker image
         run: |
-          docker build . --tag ghcr.io/Coldman22/hello-docker-gcr-demo:latest
-          docker run ghcr.io/Coldman22/hello-docker-gcr-demo:latest
-          docker push ghcr.io/Coldman22/hello-docker-gcr-demo:latest
+          docker build . --tag ghcr.io/coldman22/hello-docker-gcr-demo:latest
+          docker run ghcr.io/coldman22/hello-docker-gcr-demo:latest
+          docker push ghcr.io/coldman22/hello-docker-gcr-demo:latest

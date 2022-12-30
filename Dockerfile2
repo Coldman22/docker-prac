@@ -1,0 +1,6 @@
+FROM ubuntu
+WORKDIR /tmp
+RUN echo "My name is shishir tambe and github acc: Coldman22" >> /tmp/testfile
+ENV myname shishirtambe
+COPY testfile1 /tmp
+ADD test.tar.gz /tmp
